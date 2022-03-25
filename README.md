@@ -35,7 +35,14 @@ It currently logs the following data:
 
 You need to have at least **python 3.6** installed to use System Sensors.
 
-# Installation:
+# Automatic Installation:
+1. Create a folder called scripts_javier under /home/pi
+2. Move the 3 sh scripts to that folder
+3. cd /home/pi/scripts_javier
+4. bash install_mosquitto_for_hassio.sh
+5. Done!
+
+# Manual Installation:
 
 1. Clone this repo >> git clone https://github.com/Sennevds/system_sensors.git
 2. cd system_sensors
